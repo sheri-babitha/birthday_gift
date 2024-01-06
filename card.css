@@ -1,0 +1,108 @@
+body{
+ margin: 0px;
+ font-family: 'Happy Monkey';
+ background-image: linear-gradient(rgb(19, 239, 236) -100%, pink ) ;
+ 
+}
+.card{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+#cd{
+    text-shadow: 0px 0px 1px black;
+    margin-top: 10px;
+
+}
+#img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #efb0c9;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2),0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+#h2,#h3{
+    background-color: #efb0c9 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+
+}
+.gift_img{
+    width: 400px;
+    height: 400px;
+    background-image: url(katie-azi-_Zi4NVzjLlc-unsplash.jpg);
+    background-position: 0px 100%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+     border-radius: 2%;
+    border: 5px solid white;
+}
+.gift_title{
+    margin-bottom: 10px;
+}
+.gift_hint{
+    margin-top: 0px;
+
+}
+@keyframes  gift_img {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(-5deg); } /* Tilt to the right */
+   75%{ transform: rotate(5deg);}
+    100% { transform: rotate(0deg); } /* Back to the original position */
+}
+.gift_img:hover{
+    animation-name: gift_img;  
+    animation-duration: 4s;
+}
+#gift_happy:hover{
+    background-image: url(happy.gif);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2),0px 15px 15px rgba(0, 0, 0, 0.2);
+}
+#gift_hot:hover{
+    background-image: url(hot.gif);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2),0px 15px 15px rgba(0, 0, 0, 0.2);
+
+}
+#gift_genius:hover{
+   background-image: url(genius.gif); 
+   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2),0px 15px 15px rgba(0, 0, 0, 0.2);
+
+}
+#gift_badass:hover{
+  background-image: url(badass.gif);
+  background-position-x: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2),0px 15px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+#gift_cheers:hover{
+    background-image: url(cheers.gif);
+    background-position: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2),0px 15px 15px rgba(0, 0, 0, 0.2);
+   
+  }
+  #gift_cheers{
+    height: 200px;
+  background-repeat: no-repeat;
+   background-position-y: -40vh;
+   
+  }
+  footer{
+    text-align: center;
+    color: black;
+   font-style: italic;
+   font-size:larger;
+  margin: 20px 5px;
+  text-shadow: 0px 0px 1px black;
+ 
+  }
+  footer a {
+    color: black;
+  }
+  
